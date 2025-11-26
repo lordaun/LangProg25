@@ -1,6 +1,16 @@
+int inc(x) {
+    x++;
+    return x;
+}
+int inc(int x) {
+    x++;
+    return x;
+}
+/help
+/history
 inc(5)
 System.out.println($3)
-class  A {
+class A {
     int a;
     String s;
     A(int ab, String S) {
@@ -12,9 +22,8 @@ class  A {
     }
 }
 A abc = new A(3, "Строка");
+bca = abc
 A bca = abc
 bca.getS()
 int[] array1 = new int[10]
 array1[5] = 200;
-a
-array1
