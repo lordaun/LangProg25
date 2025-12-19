@@ -12,7 +12,7 @@ class Pr010 {
 					chrs[6] = 'X'; 
 			}
 			catch(ArithmeticException | ArrayIndexOutOfBoundsException e) {
-				System.out.println("Перехвачено исключение: " + e);
+				System.out.println("Перехвачено  исключение: " + e);
 			}
 		}
 		System.out.println("Выполнение кода после множественного перехвата ");
